@@ -1,0 +1,36 @@
+header {
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    background-color: slategray;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 700px) {
+    li {
+        padding-right: 2%;
+    }
+}
